@@ -1,0 +1,166 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+    
+  - trigger: ":login"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nAs informações de Login e Senha (acesso ao Portal do Expositor), acabam de ser enviadas ao e-mail: \n[e-mail para envio das informações] \n\n!!! Essa mensagem é apenas uma notificação !!! \nVocê receberá um outro e-mail (automático), com as informações de Login. \nPeço a gentileza de checar a pasta de SPAM – algumas vezes esse tipo de e-mail vai parar lá. \n\nCaso ainda assim não receba, pode me passar um outro endereço de e-mail ao qual você tenha acesso, para que possamos enviar as informações. (Ex. @gmail.com, @hotmail.com, etc.) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":fornece"
+    replace: "\nOlá [Fornecedor], \n\nEncaminhei seu e-mail para o setor Responsável. \nSerá analisada a viabilidade e então, em caso positivo, entraremos em contato. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":compras"
+    replace: "\nOi Henrique, \n\nSegue FORNECEDOR POTENCIAL. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":fornobs"
+    replace: "Forncedor oferecendo produtos/serviços - informado do procedimento - enviar e-mail pro cs@francal.com.br."
+    
+  - trigger: ":prospect"
+    replace: "\nOlá [Prospect], \nComo vai? \n\nFicamos felizes em saber do seu interesse em Expor na [Feira][Ano]. \n\nEncaminhei seu e-mail para o setor Responsável. \nEm breve um Agente Comercial entrará em contato com você. \n\n*Estamos tendo um tempo maior do que o normal para retorno, por causa de um número alto de procura para exposição. \nMas fique tranquila(o). Estabelecemos uma fila de prioridades e serão respondidos em ordem de chegada da solicitação. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":prosint"
+    replace: "\nHello Dear Sir/Madam, \n\nWe hope you're doing fine! \n\nWe are happy to know of your interest in Exhibiting with us. \n\nI have forwarded your email to the Responsible sector. \nA Commercial Agent will contact you shortly. \n\n\nYours sincerely, \n\nMarcelo Salles \nCustomer Service \nT. 55 11 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":samara"
+    replace: "\nOi [AgenteComercial], \n\nSegue QUERO EXPOR - [FEIRA_ANO]. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":boletoalt"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nO boleto a seguir, foi alterado (data de vencimento para 00-02-2023): \n\nTaxa de limpeza [Nosso Número] \n\nJá está disponível na Área do Prestador. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":boletosalt"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nOs boletos a seguir, foram alterados (data de vencimento para 00-02-2023): \n\n- Taxa de limpeza [Nosso Número] \n- Ponto de deságue [Nosso Número] \n- Extintor [Nosso Número] \n\nJá estão disponíveis nas respectivas Áreas (Expositor/Prestador) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+  
+  - trigger: ":projeto"
+    replace: "\nOlá [Prestador/Expositor], \n\nEstou encaminhando seu e-mail para a Área de Projetos, que nos lê em cópia. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+  
+  - trigger: ":projdireto"
+    replace: "\nConversa direta entre Projetos e Solicitante. CS em cópia."
+    
+  - trigger: ":delta"
+    replace: "\nDELTA BRIGADA DE INCÊNDIO FEIRAS E EVENTOS \nRua Salgueiro, 41 – Cidade Patriarca \nCEP 03550-020 - São Paulo – SP \nTelefone: 11 94795-1628 / 94795-1629 \nE-mail: delta.brigada@gmail.com \nContato: Donizete Gomes / Denis Gomes"
+    
+  - trigger: ":seta"
+    replace: "\nSETA BRASIL \n\nRoberto \nCel./Whatsapp: (11)94666 9422 \n\nTatiane \nCel./Whatsapp: (11)96614-1088 \n\nRegina \nCel./Whatsapp: (11) 98950-9526 \n\nE-mail: setabrasil1@bol.com.br \n\nRua Silvia Guimarães, 606 – Vila Gustavo \nCEP: 02202-020 - São Paulo/SP"
+  
+  - trigger: ":viahg"
+    replace: "\nVia HG - Agência de Turismo \nRenata Oliveira \n55 11 4229-9593 \n55 11 98368-8821 \nwww.viahg.com.br"
+    
+  - trigger: ":qual"
+    replace: "\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":projdocs"
+    replace: "\nDocumentos para análise de projeto: \n\nPlanta baixa com cotas; \nElevação com cotas; \nART / RRT / TRT: \n- Elaboração projeto arquitetônico. \n- Elaboração de projeto elétrica de baixa tensão. \n- Execução de montagem stand. \n- Execução de instalação elétrica de baixa tensão. \nExemplo de preenchimento no manual do expositor."
+    
+  - trigger: ":whatsopen"
+    replace: "Olá, [Nome] bom dia boa tarde! Marcelo aqui.. Como posso te ajudar? :)"
+    
+  - trigger: ":whatsclose"
+    replace: "Estou finalizando esse atendimento. Qualquer dúvida estamos à disposição."
+    
+  - trigger: ":amjr"
+    replace: "AMJR SEGURANÇA PRIVADA LTDA \n Rua Cabo Antônio Pereira da Silva, 506 – Jardim Tranquilidade \nCEP: 07051-011 - São Paulo – SP \nTels.: (11) 9.8239-7479 / 9.4739-5115 / 9.4026-3671 / 2656-6868 \nContato: Vanessa Verillo \nE-mail: comercial@amjrsp.com.br / vanessa@grupoamservicos.com.br / vanessaverillocomercial@gmail.com"
+    
+  - trigger: ":demora"
+    replace: "\nPrimeiramente, lamentamos a demora em te responder. \nDevido a próximidade do evento, estamos com fila intensa de atendimentos."
+    
+  - trigger: ":planta"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nSegue recorte de Área (Planta do Evento), conforme solicitado. \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":visit"
+    replace: "\nCanais de Atendimento Exclusivo do Visitante: \nWhatsApp: 11 93962-3459 \nTelefone: 11 2226-3100 - Ramal: 1313 \nEmail: visitante@francal.com.br"
+    
+  - trigger: ":expotelecom"
+    replace: "\nInformações Comerciais Expo Telecom: \nCentral Única de Comercialização: \nTel.: 11 4210-0810 \nexpotelecom@mapptv.com.br"
+    
+  - trigger: ":cidtech"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Bio/Natural Tech: \nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1595 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":cas"
+    replace: "\nCAS STANDS - KAAS PROMOÇÃO DE FEIRAS E EVENTOS \nAV. FAUSTINO RAMALHO, 781 - VILA GALVÃO - GUARULHOS \nCEP: 07054040 - SÃO PAULO – SP \nTELEFONE: (11) 24973777 - MALU: 99974.1244 / RICARDO: 99279 9702 \nE-MAIL: cas@casstands.com.br / malu@casstands.com.br / ricardo@casstands.com.br \nCONTATO: MALU CHIAPARRO /  RICARDO SAUANDAG"
+
+  - trigger: ":coletor"
+    replace: "\nTech House - Coletor de Contatos \nTelefone: (11)97611-5078 \nE-Mail: coletordecontatos@i-techhouse.com.br"
+    
+  - trigger: ":canais"
+    replace: "\nCanais de Atendimento - CS \nE-mail: cs@francal.com.br ou https://bit.ly/CS-FRANCAL-FORM-ATENDIMENTO \nTelefone: (11) 2226-3100 \nWhatsApp: (11) 97337-3859"
+    
+  - trigger: ":lgpd"
+    replace: "\nLamento, mas não podemos enviar a Planta Completa do Evento por diretrizes internas de Privacidade e Segurança - LGPD - Lei Geral de Proteção de Dados (13.709/2018). \n\nSegue recorte de Área do estande: \n\nSegue também as Normas Técnicas de Montagem (anexo). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":estrut"
+    replace: "\nMontadora Oficial \nAtendimento: Célia Cabraitz \nE-mail: producoes@francal.com.br \nFone: (11) 3934-0015"
+  
+  - trigger: ":radar"
+    replace: "\nRADAR SOLUTION - LTDA \nRua Crispim Duarte, 559 - Vila Medeiros \nCEP: 02214-000 - São Paulo - SP \nTel./Fax: (11) 2949-0775 | 11 99449-6983 \nRonaldo Lima \ncontato@radarsecuritysolutions.com.br"
+    
+  - trigger: ":cava"
+    replace: "\nCAVA VIGILÂNCIA E SEGURANÇA LTDA. \nRua Elza Fagundes - 54 - Vila Guarani \nSão Paulo - SP \n11 5017-6949 | 11 98258-3967 \nflavio.carrera@cavaseguranca.com.br"
+    
+  - trigger: ":custom"
+    replace: "\nOlá [Expositor], \n\nEncaminhei seu e-mail para o setor Responsável pelas Customizações de Estande (Operacional). \n\nEm breve, um Agente Operacional irá entrar em contato com você. \n\nVocê pode também, entrar em contato pelo: (11) 2226-3100 - R. 3138 - para que possamos tranferir ao setor Operacional. \n\nQualquer dúvida, estamos à disposição. \n\n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":indigo"
+    replace: "\nParking INDIGO: \n\nTelefone: (11) 5067-1670 / 96499-2540 \nE-mail: wilson.molina@group-indigo.com"
+    
+  - trigger: ":bio"
+    replace: "Bio Brazil | Naturaltech 2023"
+    
+  - trigger: ":buffet"
+    replace: "RODELFEST \nTELEFONE: (11)5051 9300 \nWHATSAPP: (11)95862 4181 \nE-MAIL: atendimento@rodelfest.com.br"
+
+  - trigger: ":conset"
+    replace: "CONSET CORRETAGEM DE SEGUROS \nRUA CLODOMIRO AMAZONAS, 249 - 10° ANDAR \nVL. NOVA CONCEIÇÃO - SÃO PAULO - SP \nTELEFONE: (11) 5081 9828 / 97643 7739 \nE-MAIL: claudia.sales@conset.com.br \nCONTATO: CLAUDIA SALES"
+
+  - trigger: ":algo"
+    replace: "Algo mais em que eu possa te ajudar? :)"
+    
+  - trigger: ":engeve"
+    replace: "ENGEVE ENGENHARIA E INFRAESTRUTURA \nRUA ALFREDO VIEIRA ARANTES, 485 - VILA SÃO CAETANO \nCEP: 13251-184 - ITATIBA SP \nTELEFONE: (11) 4538-3464 \nE-MAIL: engeve@engeve.com.br \nCONTATO: ENG.AMADEU / ENG. GILMAR"
+    
+  - trigger: ":hiper"
+    replace: "Hipernet \nContato: Luciano \nTelefone: (11) 3077-5500 \nE-mail: feiras@hipernet.net"
+    
+  - trigger: ":yours"
+    replace: "Yours sincerely, \n\nMarcelo Salles \nCustomer Service \nT. 55 11 2226-3100 - Option 1 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":caf"
+    replace: "CAF - Central de Atendimento Francal"
+    
+  - trigger: ":temp"
+    replace: "APENAS fornecedores que NÃO RETORNARÃO ao evento (ao final) - após a entrega, para retirar equipamentos/produtos, são aptos a entrar com pulseira de acesso temporário. \n\nTodos os demais Prestadores que IRÃO RETORNAR ao evento, após a entrega inicial - DEVEM TER CREDENCIAIS de Prestador. \n\n\nA autorização para acesso temporário pode ser feita através do WhatsApp do CAF (11-93962-7617) - exclusivo para envio de documentos durante o evento. \n\nVocê deve informar: \n\nNome Fantasia - Expositor; \nNome completo da(s) pessoa(s) que será(ão) autorizada(s) a entrar temporariamente para a entrega; \nRespectivos CPF's"
+ 
+  - trigger: ":dummy"
+    replace: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "[%d/%m/%Y - %H:%M]"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
