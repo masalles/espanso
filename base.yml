@@ -144,6 +144,9 @@ matches:
   - trigger: ":temp"
     replace: "APENAS fornecedores que NÃO RETORNARÃO ao evento (ao final) - após a entrega, para retirar equipamentos/produtos, são aptos a entrar com pulseira de acesso temporário. \n\nTodos os demais Prestadores que IRÃO RETORNAR ao evento, após a entrega inicial - DEVEM TER CREDENCIAIS de Prestador. \n\n\nA autorização para acesso temporário pode ser feita através do WhatsApp do CAF (11-93962-7617) - exclusivo para envio de documentos durante o evento. \n\nVocê deve informar: \n\nNome Fantasia - Expositor; \nNome completo da(s) pessoa(s) que será(ão) autorizada(s) a entrar temporariamente para a entrega; \nRespectivos CPF's"
  
+  - trigger: ":aprov"
+    replace: "[Expositor/Montador], todos os arquivos solicitados são obrigatórios. \n\nOs arquivos serão analisados pela equipe de Projetos por ordem de data de envio. \nVocê deve acompanhar o status pela Plataforma euvou manager."
+
   - trigger: ":dummy"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     
