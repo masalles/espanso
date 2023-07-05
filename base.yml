@@ -16,7 +16,7 @@ matches:
     replace: "\nOlá [Expositor], \nComo vai? \n\nAs informações de Login e Senha (acesso ao Portal do Expositor), acabam de ser enviadas ao e-mail: \n[e-mail para envio das informações] \n\n!!! Essa mensagem é apenas uma notificação !!! \nVocê receberá um outro e-mail (automático), com as informações de Login. \nPeço a gentileza de checar a pasta de SPAM – algumas vezes esse tipo de e-mail vai parar lá. \n\nCaso ainda assim não receba, pode me passar um outro endereço de e-mail ao qual você tenha acesso, para que possamos enviar as informações. (Ex. @gmail.com, @hotmail.com, etc.) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
 
   - trigger: ":pass"
-    replace: "\nHello [Exhibitor], \nHow are you? \n\nThe Login and Password information (access to the Exhibitor Portal) have just been sent to the e-mail: \n[email for sending the information] \n\n!!! This message is just a notification !!! \nYou will receive another email (automatic), with the Login information. \nPlease check your SPAM folder – sometimes this type of e- mail will end up there. \n\nIf you still don't receive it, you can give me another email address that you have access to, so that we can send the information. (Ex. @gmail.com, @hotmail.com, etc.) \n\nAny questions, we are at your disposal. \n\n\nSincerely, \n\nMarcelo Salles \nCustomer Service \nT.(11) 2226-3100 - Option 1 \ncs@francal.com.br \nwww.francalfeiras.com. br"
+    replace: "\nHello [Exhibitor], \nHow are you doing? \n\nThe Login and Password information (access to the Exhibitor Portal) have just been sent to the e-mail: \n[email for sending the information] \n\n!!! This message is just a notification !!! \nYou will receive another email (automatic), with the Login information. \nPlease check your SPAM folder – sometimes this type of e- mail will end up there. \n\nIf you still don't receive it, you can give me another email address that you have access to, so that we can send the information. (Ex. @gmail.com, @hotmail.com, etc.) \n\nAny questions, we are at your disposal. \n\n\nSincerely, \n\nMarcelo Salles \nCustomer Service \nT.(11) 2226-3100 - Option 1 \ncs@francal.com.br \nwww.francalfeiras.com.br"
 
   - trigger: ":fornece"
     replace: "\nOlá [Fornecedor], \n\nEncaminhei seu e-mail para o setor Responsável. \nSerá analisada a viabilidade e então, em caso positivo, entraremos em contato. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
@@ -97,7 +97,7 @@ matches:
     replace: "\nTech House - Coletor de Contatos \nTelefone: (11)97611-5078 \nE-Mail: coletordecontatos@i-techhouse.com.br"
     
   - trigger: ":canais"
-    replace: "\nCanais de Atendimento - CS \nE-mail: cs@francal.com.br ou https://bit.ly/CS-FRANCAL-FORM-ATENDIMENTO \nTelefone: (11) 2226-3100 \nWhatsApp: (11) 97337-3859"
+    replace: "\nCanais de Atendimento - CS \nE-mail: cs@francal.com.br ou https://bit.ly/CS-FRANCAL-FORM-ATENDIMENTO \nTelefone: (11) 2226-3100 \nWhatsApp: (11) 97337-3859 (somente texto/imagens)"
     
   - trigger: ":lgpd"
     replace: "\nLamento, mas não podemos enviar a Planta Completa do Evento por diretrizes internas de Privacidade e Segurança - LGPD - Lei Geral de Proteção de Dados (13.709/2018). \n\nSegue recorte de Área do estande: \n\nSegue também as Normas Técnicas de Montagem (anexo). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
@@ -140,6 +140,9 @@ matches:
     
   - trigger: ":caf"
     replace: "CAF - Central de Atendimento Francal"
+
+  - trigger: ":zenpos"
+    replace: "Após tratamento da solicitação, caso necessário - favor atribuir o Ticket novamente ao CS."
     
   - trigger: ":temp"
     replace: "APENAS fornecedores que NÃO RETORNARÃO ao evento (ao final) - após a entrega, para retirar equipamentos/produtos, são aptos a entrar com pulseira de acesso temporário. \n\nTodos os demais Prestadores que IRÃO RETORNAR ao evento, após a entrega inicial - DEVEM TER CREDENCIAIS de Prestador. \n\n\nA autorização para acesso temporário pode ser feita através do WhatsApp do CAF (11-93962-7617) - exclusivo para envio de documentos durante o evento. \n\nVocê deve informar: \n\nNome Fantasia - Expositor; \nNome completo da(s) pessoa(s) que será(ão) autorizada(s) a entrar temporariamente para a entrega; \nRespectivos CPF's"
