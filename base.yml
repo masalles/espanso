@@ -119,7 +119,10 @@ matches:
     
   - trigger: ":bio"
     replace: "Bio Brazil | Naturaltech 2023"
-    
+
+  - trigger: ":latam"
+    replace: "Latam Retail Show & Expo 2023"
+
   - trigger: ":buffet"
     replace: "RODELFEST \nTELEFONE: (11)5051 9300 \nWHATSAPP: (11)95862 4181 \nE-MAIL: atendimento@rodelfest.com.br"
 
@@ -131,6 +134,9 @@ matches:
     
   - trigger: ":engeve"
     replace: "ENGEVE ENGENHARIA E INFRAESTRUTURA \nRUA ALFREDO VIEIRA ARANTES, 485 - VILA SÃO CAETANO \nCEP: 13251-184 - ITATIBA SP \nTELEFONE: (11) 4538-3464 \nE-MAIL: engeve@engeve.com.br \nCONTATO: ENG.AMADEU / ENG. GILMAR"
+ 
+  - trigger: ":aresta"
+    replace: "EMPRESA LICITADA PARA ADESIVAGEM (PERSONALIZAÇÃO DE PROGRAMAÇÃO VISUAL) \nAresta Visual Contato: Sirlene Rocha \nTelefone:(11) 3973-6500 / Whatsapp (11) 3973-6509 \nE-mail: sirlene@aresta.com.br"
     
   - trigger: ":hiper"
     replace: "Hipernet \nContato: Luciano \nTelefone: (11) 3077-5500 \nE-mail: feiras@hipernet.net"
