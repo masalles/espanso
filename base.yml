@@ -93,6 +93,9 @@ matches:
   - trigger: ":cidsea"
     replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Seafood Show 2023: \nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1604 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
 
+  - trigger: ":cidifpa"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato The Brazil Conference - IFPA 2023: \nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1605 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
   - trigger: ":cas"
     replace: "\nCAS STANDS - KAAS PROMOÇÃO DE FEIRAS E EVENTOS \nAV. FAUSTINO RAMALHO, 781 - VILA GALVÃO - GUARULHOS \nCEP: 07054040 - SÃO PAULO – SP \nTELEFONE: (11) 24973777 - MALU: 99974.1244 / RICARDO: 99279 9702 \nE-MAIL: cas@casstands.com.br / malu@casstands.com.br / ricardo@casstands.com.br \nCONTATO: MALU CHIAPARRO /  RICARDO SAUANDAG"
 
@@ -113,6 +116,9 @@ matches:
     
   - trigger: ":cava"
     replace: "\nCAVA VIGILÂNCIA E SEGURANÇA LTDA. \nRua Elza Fagundes - 54 - Vila Guarani \nSão Paulo - SP \n11 5017-6949 | 11 98258-3967 \nflavio.carrera@cavaseguranca.com.br"
+    
+  - trigger: ":effici"
+    replace: "EFFICIENT SERVICE TERCEIRIZACAO DE SERVICOS LTDA. \nCNPJ: 97.523.405/0001-46. \nEndereço: Rua Claudeli N. 179– Cidade Julia. \nCep: 04424-070 – São Paulo -SP \nTels. (11) 2851-8011 | (11) 99830-6948 \nContato: Aline | Patricia. \nEmail: comercial@efficientservice.com.br | patricia@efficientservice.com.br"
     
   - trigger: ":custom"
     replace: "\nOlá [Expositor], \n\nEncaminhei seu e-mail para o setor Responsável pelas Customizações de Estande (Operacional). \n\nEm breve, um Agente Operacional irá entrar em contato com você. \n\nVocê pode também, entrar em contato pelo: (11) 2226-3100 - R. 3138 - para que possamos tranferir ao setor Operacional. \n\nQualquer dúvida, estamos à disposição. \n\n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
