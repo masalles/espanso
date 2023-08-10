@@ -82,7 +82,7 @@ matches:
     replace: "\nCanais de Atendimento Exclusivo do Visitante: \nWhatsApp: 11 93962-3459 \nTelefone: 11 2226-3100 - Ramal: 1313 \nEmail: visitante@francal.com.br"
     
   - trigger: ":expotelecom"
-    replace: "\nInformações Comerciais Expo Telecom: \nCentral Única de Comercialização: \nTel.: 11 4210-0810 \nexpotelecom@mapptv.com.br"
+    replace: "\nInformações Comerciais EXPO TELECOM \nCentral Única de Comercialização: \nTel.: 11 4210-0810 \nexpotelecom@mapptv.com.br"
     
   - trigger: ":cidbio"
     replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Bio/Natural Tech 2023: \nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1595 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
@@ -164,6 +164,12 @@ matches:
  
   - trigger: ":aprov"
     replace: "[Expositor/Montador], todos os arquivos solicitados são obrigatórios. \n\nOs arquivos serão analisados pela equipe de Projetos por ordem de data de envio. \nVocê deve acompanhar o status pela Plataforma euvou manager."
+
+  - trigger: ":celcaf"
+    replace: "Celular CAF \n11-93962-7617"
+    
+  - trigger: ":inter"
+    replace: "Translator and Interpreter \nMrs. Karina Chung \n(55-27)99203-0854 \nkaka.chung@hotmail.com"
 
   - trigger: ":dummy"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
