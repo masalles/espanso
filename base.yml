@@ -109,7 +109,7 @@ matches:
     replace: "\nLamento, mas não podemos enviar a Planta Completa do Evento por diretrizes internas de Privacidade e Segurança - LGPD - Lei Geral de Proteção de Dados (13.709/2018). \n\nSegue recorte de Área do estande: \n\nSegue também as Normas Técnicas de Montagem (anexo). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
     
   - trigger: ":estrut"
-    replace: "\nMontadora Oficial \nAtendimento: Célia Cabraitz \nE-mail: producoes@francal.com.br \nFone: (11) 3934-0015"
+    replace: "\nMontadora Oficial \nAtendimento: Felipe Martha/Célia Cabraitz \nE-mail: producoes@francal.com.br \nFone: (11) 3934-0015"
   
   - trigger: ":radar"
     replace: "\nRADAR SOLUTION - LTDA \nRua Crispim Duarte, 559 - Vila Medeiros \nCEP: 02214-000 - São Paulo - SP \nTel./Fax: (11) 2949-0775 | 11 99449-6983 \nRonaldo Lima \ncontato@radarsecuritysolutions.com.br"
