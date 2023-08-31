@@ -131,6 +131,9 @@ matches:
 
   - trigger: ":latam"
     replace: "Latam Retail Show & Expo 2023"
+    
+  - trigger: ":bor"
+    replace: "Expobor & Pneushow 2024"
 
   - trigger: ":buffet"
     replace: "RODELFEST \nTELEFONE: (11)5051 9300 \nWHATSAPP: (11)95862 4181 \nE-MAIL: atendimento@rodelfest.com.br"
