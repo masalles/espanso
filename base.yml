@@ -173,6 +173,9 @@ matches:
     
   - trigger: ":inter"
     replace: "Translator and Interpreter \nMrs. Karina Chung \n(55-27)99203-0854 \nkaka.chung@hotmail.com"
+    
+  - trigger: ":4events"
+    replace: "Coletor de Contatos - 4Events \nE-mail: coletor@4.events"
 
   - trigger: ":dummy"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
