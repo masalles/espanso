@@ -67,7 +67,7 @@ matches:
     replace: "Olá, [Nome] bom dia boa tarde! Marcelo aqui... Como posso te ajudar? :)"
     
   - trigger: ":whatsclose"
-    replace: "Estou finalizando esse atendimento. Qualquer dúvida estamos à disposição."
+    replace: "Estou finalizando esse atendimento, então. Qualquer dúvida estamos à disposição."
     
   - trigger: ":amjr"
     replace: "AMJR SEGURANÇA PRIVADA LTDA \n Rua Cabo Antônio Pereira da Silva, 506 – Jardim Tranquilidade \nCEP: 07051-011 - São Paulo – SP \nTels.: (11) 9.8239-7479 / 9.4739-5115 / 9.4026-3671 / 2656-6868 \nContato: Vanessa Verillo \nE-mail: comercial@amjrsp.com.br / vanessa@grupoamservicos.com.br / vanessaverillocomercial@gmail.com"
