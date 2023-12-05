@@ -198,6 +198,9 @@ matches:
 
   - trigger: ":mcs"
     replace: "MODERN CONSTRUCTION SHOW 2024"
+    
+  - trigger: ":gl"
+    replace: "ESTRUTURA AÉREA - ANHEMBI \nGL events \n11 5067-1770 \ncomercial@glbr.com.br"
 
   - trigger: ":dummy"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
