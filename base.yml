@@ -40,10 +40,10 @@ matches:
     replace: "\nOi [AgenteComercial], \n\nSegue QUERO EXPOR - [FEIRA_ANO]. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
 
   - trigger: ":boletoalt"
-    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nO boleto a seguir, foi alterado (data de vencimento para 00-02-2023): \n\nTaxa de limpeza [Nosso Número] \n\nJá está disponível na Área do Prestador. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nO boleto a seguir, foi alterado (data de vencimento para 00-02-2024): \n\nTaxa de limpeza [Nosso Número] \n\nJá está disponível na Área do Prestador. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
 
   - trigger: ":boletosalt"
-    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nOs boletos a seguir, foram alterados (data de vencimento para 00-02-2023): \n\n- Taxa de limpeza [Nosso Número] \n- Ponto de deságue [Nosso Número] \n- Extintor [Nosso Número] \n\nJá estão disponíveis nas respectivas Áreas (Expositor/Prestador) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nOs boletos a seguir, foram alterados (data de vencimento para 00-02-2024): \n\n- Taxa de limpeza [Nosso Número] \n- Ponto de deságue [Nosso Número] \n- Extintor [Nosso Número] \n\nJá estão disponíveis nas respectivas Áreas (Expositor/Prestador) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
   
   - trigger: ":projeto"
     replace: "\nOlá [Prestador/Expositor], \n\nEstou encaminhando seu e-mail para a Área de Projetos, que nos lê em cópia. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
