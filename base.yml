@@ -11,18 +11,111 @@ matches:
   # Simple text replacement
   - trigger: ":espanso"
     replace: "Hi there!"
-    
+
+ 
   - trigger: ":login"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nAs informações de Login e Senha (acesso ao Portal do Expositor), acabam de ser enviadas ao e-mail: \n[e-mail para envio das informações] \n\n!!! Essa mensagem é apenas uma notificação!!! \nVocê receberá outro e-mail (automático), com as informações de Login. \nPeço a gentileza de checar a pasta de SPAM – algumas vezes esse tipo de e-mail vai parar lá. \n\nCaso ainda assim não receba, pode me passar outro endereço de e-mail ao qual você tenha acesso, para podermos enviar as informações. (Ex. @gmail.com, @hotmail.com, etc.) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    form: |
+      Olá [[name]],
+      Como vai?
+      
+      As informações de Login e Senha (acesso ao Portal do Expositor), acabam de ser enviadas ao e-mail:
+      [[email]]
+      
+      !!! Essa mensagem é apenas uma notificação!!!
+      Você receberá outro e-mail (automático), com as informações de Login.
+      
+      Peço a gentileza de checar a pasta de SPAM – algumas vezes esse tipo de e-mail vai parar lá.
+      Caso ainda assim não receba, pode me passar outro endereço de e-mail ao qual você tenha acesso,
+      para podermos enviar as informações. (Ex. @gmail.com, @hotmail.com, etc.)
+      
+      
+      Qualquer dúvida, estamos à disposição.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
 
   - trigger: ":notlogin"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nO Portal do Expositor (MANUAL DO EXPOSITOR) ainda está em processo de configuração sistêmica. Por isso, ainda não é possível enviar Login e senha da sua Área. \n\nAssim que possível, será disparado automaticamente e você receberá por e-mail as informações de Login (e-mail que consta em contrato). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
-
+    form: |
+      Olá [[name]],
+      Como vai?
+      
+      O Portal do Expositor (MANUAL DO EXPOSITOR) ainda está em processo de configuração sistêmica. Por isso, ainda não é possível enviar Login e senha da sua Área.
+      
+      Assim que possível, será disparado automaticamente e você receberá por e-mail as informações de Login (e-mail que consta em contrato).
+      
+      
+      Qualquer dúvida, estamos à disposição.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
+ 
   - trigger: ":pass"
-    replace: "\nHello [Exhibitor], \nHow are you doing? \n\nThe Login and Password information (access to the Exhibitor Portal) have just been sent to the e-mail: \n[email for sending the information] \n\n!!! This message is just a notification !!! \nYou will receive another email (automatic), with the Login information. \nPlease check your SPAM folder – sometimes this type of e- mail will end up there. \n\nIf you still don't receive it, you can give me another email address that you have access to, so that we can send the information. (Ex. @gmail.com, @hotmail.com, etc.) \n\nAny questions, we are at your disposal. \n\n\nSincerely, \n\nMarcelo Salles \nCustomer Service \nT.(11) 2226-3100 - Option 1 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    form: |
+      Hello [[name]],
+      How are you doing?
+      
+      The Login and Password information (access to the Exhibitor Portal) have just been sent to the e-mail:
+      [[email]]
+      
+      !!! This message is just a notification !!!
+      You will receive another message (an automatic e-mail), with your Login information.
+      
+      Please check your SPAM folder – sometimes this type of e- mail will end up there.
+      If you still don't receive it, you can give me another email address that you have access to, so that we can send the information. (Ex. @gmail.com, @hotmail.com, etc.)
+      
+      If you have any questions, we are at your disposal.
+      
+      
+      Sincerely,
+      
+      Marcelo Salles
+      Customer Service
+      T. (55-11) 2226-3100 - Option 1
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
 
   - trigger: ":fornece"
-    replace: "\nOlá [Fornecedor], \n\nEncaminhei seu e-mail para o setor Responsável. \nSerá analisada a viabilidade e então, em caso positivo, entraremos em contato. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    form: |
+      Olá [[name]],
+      
+      Encaminhei seu e-mail para o setor Responsável.
+      Será analisada a viabilidade e então, em caso positivo, entraremos em contato.
+      
+      
+      Qualquer dúvida, estamos à disposição.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
 
   - trigger: ":compras"
     replace: "\nOi Henrique, \n\nSegue FORNECEDOR POTENCIAL. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
@@ -65,9 +158,16 @@ matches:
     
   - trigger: ":projdocs"
     replace: "\nDocumentos para análise de projeto: \n\nPlanta baixa com cotas; \nElevação com cotas; \nART / RRT / TRT: \n- Elaboração projeto arquitetônico. \n- Elaboração de projeto elétrica de baixa tensão. \n- Execução de montagem stand. \n- Execução de instalação elétrica de baixa tensão. \nExemplo de preenchimento no manual do expositor."
-    
+  
   - trigger: ":whatsopen"
-    replace: "Olá, [Nome] bom dia boa tarde! Marcelo aqui... Como posso te ajudar? :)"
+    form: |
+      Olá [[name]], [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+          - bom dia! Marcelo aqui... Como posso te ajudar? :)
+          - boa tarde! Marcelo aqui... Como posso te ajudar? :)
     
   - trigger: ":whatsclose"
     replace: "Estou finalizando esse atendimento, então. Qualquer dúvida estamos à disposição."
@@ -184,8 +284,7 @@ matches:
     replace: "Coletor de Contatos - 4Events \nE-mail: coletor@4.events"
     
   - trigger: ":covisa"
-    replace: "Olá, Expositor \n\nEsperamos que esteja bem! Ressaltando o item INSTALAÇÃO DE FOOD TRUCK mencionado no boletim informativo, esclarecemos que existe a obrigatoriedade de envio (e-mail: cs@francal.com.br)  do protocolo de notificação à Coordenadoria de Vigilância Sanitária – COVISA para a participação de sua empresa no VEGFEST 2023 até 21/11/2023. \n\nCaso tenha dúvidas, descrevemos abaixo o procedimento e contatos para as providências: \n\nÉ necessário Notificar à Coordenadoria de Vigilância Sanitária – COVISA através do Formulário de Avaliação Prévia das Instalações e dos Serviços Relacionados à Manipulação de Alimentos para a participação de sua empresa no 10º CONGRESSO VEGANO BRASILEIRO E EXPOSIÇÃO – VEGFEST 2023, que acontecerá de 30 de novembro à 03 de dezembro de 2023 (de quinta a domingo) – das 10h às 19h, no Expo Center Norte Pavilhão Amarelo , para isso: \n\nAcesse o site da COVISA (Coordenação de Vigilância em Saúde) https://www.prefeitura.sp.gov.br/covisa/ \n Procure pela seção referente à manipulação de alimentos e segurança alimentar. \n Verifique o formulário de avaliação prévia disponível para download e as orientações sobre formulário. \n Preencha o formulário com as informações solicitadas, incluindo detalhes sobre as instalações e os serviços relacionados à manipulação de alimentos. \n	Envie o formulário preenchido para a COVISA covisaalimentos@PREFEITURA.SP.GOV.BR, conforme as instruções fornecidas no próprio formulário ou no site da COVISA. \n\n Posteriormente,  encaminhar a notificação com a cientificação da instituição para o e-mail: cs@francal.com.br (Protocolo de Notificação, para cumprimento do processo de alvará de funcionamento do evento)\n\n Você consegue suporte a respeito da documentação com o Grupo Eldorado (Responsável por A/B da VegFest) que está conduzindo essa questão junto aos expositores. Assim, para suporte sobre documentação de Anvisa, COVISA, alvarás, etc:
-\n\nGabriela Moreno \n\nqualidade@grupoeld.com.br"
+    replace: "Olá, Expositor \n\nEsperamos que esteja bem! Ressaltando o item INSTALAÇÃO DE FOOD TRUCK mencionado no boletim informativo, esclarecemos que existe a obrigatoriedade de envio (e-mail: cs@francal.com.br)  do protocolo de notificação à Coordenadoria de Vigilância Sanitária – COVISA para a participação de sua empresa no VEGFEST 2023 até 21/11/2023. \n\nCaso tenha dúvidas, descrevemos abaixo o procedimento e contatos para as providências: \n\nÉ necessário Notificar à Coordenadoria de Vigilância Sanitária – COVISA através do Formulário de Avaliação Prévia das Instalações e dos Serviços Relacionados à Manipulação de Alimentos para a participação de sua empresa no 10º CONGRESSO VEGANO BRASILEIRO E EXPOSIÇÃO – VEGFEST 2024, que acontecerá de 30 de novembro à 03 de dezembro de 2023 (de quinta a domingo) – das 10h às 19h, no Expo Center Norte Pavilhão Amarelo , para isso: \n\nAcesse o site da COVISA (Coordenação de Vigilância em Saúde) https://www.prefeitura.sp.gov.br/covisa/ \nProcure pela seção referente à manipulação de alimentos e segurança alimentar. \nVerifique o formulário de avaliação prévia disponível para download e as orientações sobre formulário. \nPreencha o formulário com as informações solicitadas, incluindo detalhes sobre as instalações e os serviços relacionados à manipulação de alimentos. \nEnvie o formulário preenchido para a COVISA covisaalimentos@PREFEITURA.SP.GOV.BR, conforme as instruções fornecidas no próprio formulário ou no site da COVISA. \n\n Posteriormente,  encaminhar a notificação com a cientificação da instituição para o e-mail: cs@francal.com.br (Protocolo de Notificação, para cumprimento do processo de alvará de funcionamento do evento)\n\n Você consegue suporte a respeito da documentação com o Grupo Eldorado (Responsável por A/B da VegFest) que está conduzindo essa questão junto aos expositores. Assim, para suporte sobre documentação de Anvisa, COVISA, alvarás, etc: \n\nGabriela Moreno \n\nqualidade@grupoeld.com.br"
     
   - trigger: ":meuestaciona"
     replace: "MEU ESTACIONAMENTO \n\nTelefones:(11) 94001-9407 \nE-mail: meucontato@meuestacionamento.com.br"
@@ -193,8 +292,121 @@ matches:
   - trigger: ":estapar"
     replace: "ESTAPAR \nContato através do tel. (11) 2221-6700, \nno horário das 08h00 às 18h00,\ne-mail: estacionamentoexpo@estapar.com.br"
     
-  - trigger: ":nf"
-    replace: "Prezado Expositor ou Parceiro,\n\nCompreendemos sua preocupação com a nota fiscal em vez do recibo. Contudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - REsp nº 411.580/SP. \n\nNão se trata de tema pacificado. Para evitar futuros problemas, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto. \n\nColocamo-nos à disposição para quaisquer esclarecimentos."
+  - trigger: ":1nf"
+    form: |
+      Olá [[name]],
+      
+      A FRANCAL emite um recibo de pagamento referente ao serviço prestado/contratação de itens, que serve como documento comprobatório.
+      
+      Segue anexo.
+      
+      
+      Qualquer dúvida, estamos à disposição.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
+
+  - trigger: ":rep1nf"
+    form: |
+      Prezado [[name]],
+      
+      Compreendemos sua preocupação com a nota fiscal em vez do recibo. Contudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - Resp nº 411.580/SP.
+      
+      Para maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.
+      
+      Colocamo-nos à disposição para quaisquer esclarecimentos.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
+
+  - trigger: ":2nf"
+    form: |
+      Olá [[name]],
+      
+      Para taxas de serviços prestados por terceiros (repasse), a FRANCAL emite um recibo de pagamento, assim que a baixa do pagamento for efetivada - que serve como comprovante.
+      
+      Caso não queira aguardar a baixa automática, você pode nos enviar um Comprovante de pagamento da taxa.
+      
+      Qualquer dúvida, estamos à disposição.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
+
+  - trigger: ":rep2nf"
+    form: |
+      Olá [[name]],
+      
+      A emissão do Recibo é possível mediante comprovação de quitação dos valores em questão.
+      
+      Entretanto, por uma liberalidade da FRANCAL, emitimos o recibo antecipadamente, porém é necessário que o pagamento seja efetivado até [[datalimite]].
+      
+      Qualquer dúvida, estamos à disposição.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
+
+  - trigger: ":trep2nf"
+    form: |
+      Olá [[name]],
+      
+      Compreendemos sua preocupação com a nota fiscal em vez do recibo.
+      
+      Contudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ),
+      que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos
+      pagos por terceiros - Resp nº 411.580/SP.
+      
+      Para maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de
+      Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.
+      
+      Colocamo-nos à disposição para quaisquer esclarecimentos.
+      
+      
+      Atenciosamente,
+      
+      Marcelo Salles
+      Customer Service
+      T. (11) 2226-3100 - Opção 9
+      cs@francal.com.br
+      www.francalfeiras.com.br
+    form_fields:
+      text:
+        multiline: true
 
   - trigger: ":mcs"
     replace: "MODERN CONSTRUCTION SHOW 2024"
@@ -204,6 +416,7 @@ matches:
 
   - trigger: ":dummy"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
     
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
 
