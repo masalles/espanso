@@ -202,6 +202,21 @@ matches:
   - trigger: ":gl"
     replace: "ESTRUTURA AÉREA - ANHEMBI \nGL events \n11 5067-1770 \ncomercial@glbr.com.br"
     
+  - trigger: ":1nf"
+    replace: "Olá [Expositor], \n\nA FRANCAL emite um recibo de pagamento referente ao serviço prestado/contratação de itens, que serve como documento comprobatório. \n\nSegue anexo.\n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":rep1nf"
+    replace: "Prezado [Expositor], \n\nCompreendemos sua preocupação com a nota fiscal em vez do recibo. Contudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - Resp nº 411.580/SP. \n\nPara maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.\n\nColocamo-nos à disposição para quaisquer esclarecimentos. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":2nf"
+    replace: "Olá [Expositor], \n\nPara taxas de serviços prestados por terceiros (repasse), a FRANCAL emite um recibo de pagamento, assim que a baixa do pagamento for efetivada - que serve como comprovante. \n\nCaso não queira aguardar a baixa automática, você pode nos enviar um Comprovante de pagamento da taxa.\n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":rep2nf"
+    replace: "Olá [Expositor], \n\nA emissão do Recibo é possível mediante comprovação de quitação dos valores em questão. \n\nEntretanto, por uma liberalidade da FRANCAL, emitimos o recibo antecipadamente, porém é necessário que o pagamento seja efetivado até [datalimite].\n\nQualquer dúvida, estamos à disposição.\n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+
+  - trigger: ":trep2nf"
+    replace: "Olá [Expositor], \n\nCompreendemos sua preocupação com a nota fiscal em vez do recibo. \n\nContudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - Resp nº 411.580/SP. \n\nPara maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.\n\nColocamo-nos à disposição para quaisquer esclarecimentos.n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 - Opção 9 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
   - trigger: ":ferias"
     replace: "Dear Exhibitor, \n\nWe are on a year-end break here at FRANCAL, with a return date of January 15th, 2024 - when we will be available to provide you with all the support you need. \n\nWe wish you happy Holidays!"
     
