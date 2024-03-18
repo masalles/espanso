@@ -55,7 +55,7 @@ matches:
     replace: "\nDELTA BRIGADA DE INCÊNDIO FEIRAS E EVENTOS \nRua Salgueiro, 41 – Cidade Patriarca \nCEP 03550-020 - São Paulo – SP \nTelefone: (11)94795.1628 \nE-mail: delta.brigada@gmail.com \nContato: Donizete Gomes / Denis Gomes"
     
   - trigger: ":seta"
-    replace: "\nSETA BRASIL \n\nRoberto \nCel./Whatsapp: (11)94666 9422 \n\nTatiane \nCel./Whatsapp: (11)96614-1088 \n\nRegina \nCel./Whatsapp: (11) 98950-9526 \n\nE-mail: setabrasil1@bol.com.br \n\nRua Silvia Guimarães, 606 – Vila Gustavo \nCEP: 02202-020 - São Paulo/SP"
+    replace: "\nSETA BRASIL \n\nTatiane \nCel./Whatsapp: (11)96614-1088 \n\nE-mail: setabrasil1@bol.com.br \n\nRua Silvia Guimarães, 606 – Vila Gustavo \nCEP: 02202-020 - São Paulo/SP"
   
   - trigger: ":viahg"
     replace: "\nVia HG - Agência de Turismo \nRenata Oliveira \n55 11 4229-9593 \n55 11 98368-8821 \nwww.viahg.com.br"
