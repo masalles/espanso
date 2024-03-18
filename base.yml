@@ -52,7 +52,7 @@ matches:
     replace: "\nConversa direta entre Projetos e Solicitante. CS em cópia."
     
   - trigger: ":delta"
-    replace: "\nDELTA BRIGADA DE INCÊNDIO FEIRAS E EVENTOS \nRua Salgueiro, 41 – Cidade Patriarca \nCEP 03550-020 - São Paulo – SP \nTelefone: 11 94795-1628 / 94795-1629 \nE-mail: delta.brigada@gmail.com \nContato: Donizete Gomes / Denis Gomes"
+    replace: "\nDELTA BRIGADA DE INCÊNDIO FEIRAS E EVENTOS \nRua Salgueiro, 41 – Cidade Patriarca \nCEP 03550-020 - São Paulo – SP \nTelefone: (11)94795.1628 \nE-mail: delta.brigada@gmail.com \nContato: Donizete Gomes / Denis Gomes"
     
   - trigger: ":seta"
     replace: "\nSETA BRASIL \n\nRoberto \nCel./Whatsapp: (11)94666 9422 \n\nTatiane \nCel./Whatsapp: (11)96614-1088 \n\nRegina \nCel./Whatsapp: (11) 98950-9526 \n\nE-mail: setabrasil1@bol.com.br \n\nRua Silvia Guimarães, 606 – Vila Gustavo \nCEP: 02202-020 - São Paulo/SP"
@@ -73,7 +73,7 @@ matches:
     replace: "Estou finalizando esse atendimento, então. Qualquer dúvida estamos à disposição."
     
   - trigger: ":amjr"
-    replace: "AMJR SEGURANÇA PRIVADA LTDA \n Rua Cabo Antônio Pereira da Silva, 506 – Jardim Tranquilidade \nCEP: 07051-011 - São Paulo – SP \nTels.: (11) 96720-6757 / (11) 93287-7969 / (11) 94460-9964 / 2656-6868 \nContato: Aine / Geovanna / Maurício \nE-mail: comercial@amjrsp.com.br"
+    replace: "AMJR SEGURANÇA PRIVADA LTDA \n Rua Cabo Antônio Pereira da Silva, 506 – Jardim Tranquilidade \nCEP: 07051-011 - São Paulo – SP \nTel: (11) 96720-6757 \nContato: Aline \nE-mail: comercial@amjrsp.com.br"
     
   - trigger: ":demora"
     replace: "\nPrimeiramente, lamentamos a demora em te responder. \nDevido a próximidade do evento, estamos com fila intensa de atendimentos."
@@ -109,7 +109,7 @@ matches:
     replace: "\nTech House - Coletor de Contatos \nTelefone: (11)97611-5078 \nE-Mail: coletordecontatos@i-techhouse.com.br"
     
   - trigger: ":canais"
-    replace: "\nCanais de Atendimento - CS \nE-mail: cs@francal.com.br ou https://bit.ly/CS-FRANCAL-FORM-ATENDIMENTO \nTelefone: (11) 2226-3100 \nWhatsApp: (11) 97337-3859 (somente texto/imagens)"
+    replace: "\nCanais de Atendimento - CS \nE-mail: cs@francal.com.br ou \n https://puccs.zendesk.com/hc/pt-br/requests/new?ticket_form_id=1500003250501 \nTelefone: (11) 2226-3100 \nWhatsApp: (11) 97337-3859 (somente texto/imagens)"
     
   - trigger: ":lgpd"
     replace: "\nLamento, mas não podemos enviar a Planta Completa do Evento por diretrizes internas de Privacidade e Segurança - LGPD - Lei Geral de Proteção de Dados (13.709/2018). \n\nSegue recorte de Área do estande: \n\nSegue também as Normas Técnicas de Montagem (anexo). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
@@ -121,10 +121,10 @@ matches:
     replace: "\nRADAR SOLUTION - LTDA \nRua Crispim Duarte, 559 - Vila Medeiros \nCEP: 02214-000 - São Paulo - SP \nTel./Fax: (11) 2949-0775 | 11 99449-6983 \nRonaldo Lima \ncontato@radarsecuritysolutions.com.br"
     
   - trigger: ":cava"
-    replace: "\nCAVA VIGILÂNCIA E SEGURANÇA LTDA. \nRua Elza Fagundes - 54 - Vila Guarani \nSão Paulo - SP \n11 5017-6949 | 11 98258-3967 \nflavio.carrera@cavaseguranca.com.br"
+    replace: "\nCAVA VIGILÂNCIA E SEGURANÇA LTDA. \nRua Elza Fagundes - 54 - Vila Guarani \nSão Paulo - SP \n11 5017-6949 \nflavio.carrera@cavaseguranca.com.br"
     
   - trigger: ":effici"
-    replace: "EFFICIENT SERVICE TERCEIRIZACAO DE SERVICOS LTDA. \nCNPJ: 97.523.405/0001-46. \nEndereço: Rua Claudeli N. 179– Cidade Julia. \nCep: 04424-070 – São Paulo -SP \nTels. (11) 2851-8011 | (11) 99830-6948 \nContato: Aline | Patricia. \nEmail: comercial@efficientservice.com.br | patricia@efficientservice.com.br"
+    replace: "EFFICIENT SERVICE TERCEIRIZACAO DE SERVICOS LTDA. \nCNPJ: 97.523.405/0001-46. \nEndereço: Rua Claudeli N. 179– Cidade Julia. \nCep: 04424-070 – São Paulo -SP \nTel. (11) 5625-3802 \nContato: Patricia | Miguel. \nEmail: miguel.maduro@gmail.com"
     
   - trigger: ":custom"
     replace: "\nOlá [Expositor], \n\nEncaminhei seu e-mail para o setor Responsável pelas Customizações de Estande (Operacional). \n\nEm breve, um Agente Operacional irá entrar em contato com você. \n\nVocê pode também, entrar em contato pelo: (11) 2226-3100 - R. 3138 - para que possamos tranferir ao setor Operacional. \n\nQualquer dúvida, estamos à disposição. \n\n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
