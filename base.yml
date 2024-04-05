@@ -20,6 +20,9 @@ matches:
 
   - trigger: ":pass"
     replace: "\nHello [Exhibitor], \nHow are you doing? \n\nThe Login and Password information (access to the Exhibitor Portal) have just been sent to the e-mail: \n[email for sending the information] \n\n!!! This message is just a notification !!! \nYou will receive another email (automatic), with the Login information. \nPlease check your SPAM folder – sometimes this type of e- mail will end up there. \n\nIf you still don't receive it, you can give me another email address that you have access to, so that we can send the information. (Ex. @gmail.com, @hotmail.com, etc.) \n\nAny questions, we are at your disposal. \n\n\nSincerely, \n\nMarcelo Salles \nCustomer Service \nT.(11) 2226-3100 - Option 1 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":any"
+    replace: "\n\nAny questions, we are at your disposal. \n\n\nSincerely, \n\nMarcelo Salles \nCustomer Service \nT.(11) 2226-3100 - Option 1 \ncs@francal.com.br \nwww.francalfeiras.com.br"
 
   - trigger: ":fornece"
     replace: "\nOlá [Fornecedor], \n\nEncaminhei seu e-mail para o setor Responsável. \nSerá analisada a viabilidade e então, em caso positivo, entraremos em contato. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
@@ -127,7 +130,7 @@ matches:
     replace: "EFFICIENT SERVICE TERCEIRIZACAO DE SERVICOS LTDA. \nCNPJ: 97.523.405/0001-46. \nEndereço: Rua Claudeli N. 179– Cidade Julia. \nCep: 04424-070 – São Paulo -SP \nTel. (11) 5625-3802 \nContato: Patricia | Miguel. \nEmail: miguel.maduro@gmail.com"
     
   - trigger: ":custom"
-    replace: "\nOlá [Expositor], \n\nEncaminhei seu e-mail para o setor Responsável pelas Customizações de Estande (Operacional). \n\nEm breve, um Agente Operacional irá entrar em contato com você. \n\nVocê pode também, entrar em contato pelo: (11) 2226-3100 - R. 3138 - para que possamos tranferir ao setor Operacional. \n\nQualquer dúvida, estamos à disposição. \n\n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    replace: "\nOlá [Expositor], \n\nEncaminhei seu e-mail para o setor Responsável pelas Customizações de Estande (Operacional). \n\nEm breve, um Agente Operacional irá entrar em contato com você. \n\nVocê pode também, entrar em contato pelo: (11) 2226-3100 - para que possamos tranferir ao setor Operacional. \n\nQualquer dúvida, estamos à disposição. \n\n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
 
   - trigger: ":indigo"
     replace: "\nParking INDIGO: \n\nTelefone: (11) 5067-1670 / 96499-2540 \nE-mail: wilson.molina@group-indigo.com"
@@ -222,6 +225,9 @@ matches:
     
   - trigger: ":logorecesso"
     replace: "Olá [Expositor], \n\nConfirmamos o recebimento do seu arquivo. A Tratativa ocorrerá a partir de 15/01/2024, pois o colaborador responsável pelas análises e aprovação estará em período de recesso. \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nwww.francalfeiras.com.br"
+    
+  - trigger: ":fgl"
+    replace: "COMPANY: FGL GLOBAL LOGISTICS \nCONTACT: MR. FABIO MAIA \nE-MAIL: fabio.maia@fglglobal.com \nTEL: (55-11) 5096 4054 | (55-11) 98125 8243 \nwww.fglglobal.com"
 
   - trigger: ":dummy"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
