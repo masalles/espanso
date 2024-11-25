@@ -147,9 +147,6 @@ matches:
   - trigger: ":rodel"
     replace: "RODELFEST \nTELEFONE: (11)5051 9300 \nWHATSAPP: (11)95862 4181 \nE-MAIL: atendimento@rodelfest.com.br"
 
-  - trigger: ":conset"
-    replace: "CONSET CORRETAGEM DE SEGUROS \nRUA CLODOMIRO AMAZONAS, 249 - 10° ANDAR \nVL. NOVA CONCEIÇÃO - SÃO PAULO - SP \nTELEFONE: (11) 5081 9828 / 97643 7739 \nE-MAIL: claudia.sales@conset.com.br \nCONTATO: CLAUDIA SALES"
-
   - trigger: ":algo"
     replace: "Algo mais em que eu possa te ajudar? :)"
     
@@ -250,7 +247,10 @@ matches:
   - trigger: ":cinza2"
     replace: "#393939"
 
-  - trigger: ":dummy"
+  - trigger: ":conset"
+    replace: "CONSET CORRETAGEM DE SEGUROS \nRUA CLODOMIRO AMAZONAS, 249 - 10° ANDAR \nVL. NOVA CONCEIÇÃO - SÃO PAULO - SP \nSite: https://rcexpositoresconset.safe2go.com.br/ \nTelefone: (21) 99343-1565"
+
+  - trigger: ":lorem"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
