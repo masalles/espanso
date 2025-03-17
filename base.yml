@@ -228,6 +228,9 @@ matches:
 
   - trigger: ":luci"
     replace: "luciene.bueno@francal.com.br"
+    
+  - trigger: ":laranja"
+    replace: "#EF4E23"
 
   - trigger: ":vermelho"
     replace: "#ec1c24"
@@ -249,6 +252,15 @@ matches:
 
   - trigger: ":conset"
     replace: "CONSET CORRETAGEM DE SEGUROS \nRUA CLODOMIRO AMAZONAS, 249 - 10° ANDAR \nVL. NOVA CONCEIÇÃO - SÃO PAULO - SP \nSite: https://rcexpositoresconset.safe2go.com.br/ \nTelefone: (21) 99343-1565"
+
+  - trigger: ":pt"
+    replace: "[pt-br]"
+
+  - trigger: ":en"
+    replace: "[en-us]"
+
+  - trigger: ":feiras"
+    replace: "ABRIN \nAUTOCOM \nBIO BRAZIL FAIR \nNATURAL TECH \nEXPOBOR/PNEU SHOW \nESCOLAR \nTHE BRAZIL CONFERENCE - IFPA \nEXPOLAZER \nPL CONNECTION \nCONSTRUMETAL \nMODERN CONSTRUCTION SHOW \nSEAFOOD SHOW \nVEGFEST"
 
   - trigger: ":lorem"
     replace: "Lorem ipsum dolor sit amet, consectetur elit,\n sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum\n dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\n sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit."
