@@ -12,44 +12,47 @@ matches:
   - trigger: ":espanso"
     replace: "Hi there!"
     
-  - trigger: ":login"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nAs informações de Login e Senha (acesso ao Portal do Expositor), acabam de ser enviadas ao e-mail: \n[e-mail para envio das informações] \n\n!!! Essa mensagem é apenas uma notificação!!! \nVocê receberá outro e-mail (automático), com as informações de Login. \nPeço a gentileza de checar a pasta de SPAM – algumas vezes esse tipo de e-mail vai parar lá. \n\nCaso ainda assim não receba, pode me passar outro endereço de e-mail ao qual você tenha acesso, para podermos enviar as informações. (Ex. @gmail.com, @hotmail.com, etc.) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+  - trigger: ":loginOld"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nAs informações de Login e Senha (acesso a Plataforma EuVou - Área do Expositor), acabam de ser enviadas ao e-mail: \n[e-mail para envio das informações] \n\n!!! Essa mensagem é apenas uma notificação!!! \nVocê receberá outro e-mail (automático), com as informações de Login. \nPeço a gentileza de checar a pasta de SPAM – algumas vezes esse tipo de e-mail vai parar lá. \n\nCaso ainda assim não receba, pode me passar outro endereço de e-mail ao qual você tenha acesso, para podermos enviar as informações. (Ex. @gmail.com, @hotmail.com, etc.) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    
+  - trigger: ":login"  
+    replace: "\nOlá [Expositor],\n\nEsperamos que esteja bem!\n\nAs informações de login e senha para acesso à Plataforma EuVou - Área do Expositor) foram enviadas para o seguinte e-mail:\n[e-mail para envio das informações]\n\n⚠️ Esta mensagem é apenas uma notificação! ⚠️\nVocê receberá outro e-mail automático com os dados de login.\n\nPor favor, verifique sua pasta de SPAM, pois esse tipo de e-mail pode acabar lá.\n\nCaso não receba, você pode nos fornecer um outro endereço de e-mail ao qual tenha acesso (ex.: @gmail.com, @hotmail.com), para que possamos reenviar as informações.\n\nSe precisar de algo, estamos à disposição!\n\nAtenciosamente,\n\nMarcelo Salles  \nCUSTOMER SUCCESS  \nT. (11) 2226-3100  \ncs@francal.com.br  \nhttps://francal.com.br"
 
   - trigger: ":notlogin"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nO Portal do Expositor (MANUAL DO EXPOSITOR) ainda está em processo de configuração sistêmica. Por isso, ainda não é possível enviar Login e senha da sua Área. \n\nAssim que possível, será disparado automaticamente e você receberá por e-mail as informações de Login (e-mail que consta em contrato). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nO Portal do Expositor (MANUAL DO EXPOSITOR) ainda está em processo de configuração sistêmica. Por isso, ainda não é possível enviar Login e senha da sua Área. \n\nAssim que possível, será disparado automaticamente e você receberá por e-mail as informações de Login (e-mail que consta em contrato). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
-  - trigger: ":pass"
-    replace: "\nHello [Exhibitor], \nHow are you doing? \n\nThe Login and Password information (access to the Exhibitor Portal) have just been sent to the e-mail: \n[email for sending the information] \n\n!!! This message is just a notification !!! \nYou will receive another email (automatic), with the Login information. \nPlease check your SPAM folder – sometimes this type of e- mail will end up there. \n\nIf you still don't receive it, you can give me another email address that you have access to, so that we can send the information. (Ex. @gmail.com, @hotmail.com, etc.) \n\nAny questions, we are at your disposal. \n\n\nBest wishes, \n\nMarcelo Salles \nCustomer Service \nT.(11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+  - trigger: ":pass"  
+    replace: "\nHello [Exhibitor],\n\nWe hope you're doing well!\n\nYour login and password for the Euvou Platform (Exhibitor Area) have just been sent to the following email:\n[email for sending the information]\n\n⚠️ This message is just a notification! ⚠️\nYou will receive another automatic email containing your login details.\n\nPlease check your SPAM folder, as sometimes these emails might end up there.\n\nIf you don’t receive it, feel free to provide an alternative email address (e.g., @gmail.com, @hotmail.com) so we can resend the information.\n\nIf you have any questions, we're here to help!\n\nBest regards,\n\nMarcelo Salles  \nCUSTOMER SUCCESS  \nT. (11) 2226-3100  \ncs@francal.com.br  \nhttps://francal.com.br"
     
   - trigger: ":any"
-    replace: "\n\nAny questions, we are at your disposal. \n\n\nBest wishes, \n\nMarcelo Salles \nCustomer Service \nT.(11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\n\nAny questions, we are at your disposal. \n\n\nBest wishes, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT.(11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":fornece"
-    replace: "\nOlá [Fornecedor], \n\nEncaminhei seu e-mail para o setor Responsável. \nSerá analisada a viabilidade e então, em caso positivo, entraremos em contato. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Fornecedor], \n\nEncaminhei seu e-mail para o setor Responsável. \nSerá analisada a viabilidade e então, em caso positivo, entraremos em contato. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":compras"
-    replace: "\nOi Henrique, \n\nSegue FORNECEDOR POTENCIAL. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOi Henrique, \n\nSegue FORNECEDOR POTENCIAL. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":fornobs"
     replace: "Forncedor oferecendo produtos/serviços - informado do procedimento - enviar e-mail pro cs@francal.com.br."
     
   - trigger: ":prospect"
-    replace: "\nOlá [Prospect], \nComo vai? \n\nFicamos felizes em saber do seu interesse em Expor na [Feira][Ano]. \n\nEncaminhei seu e-mail para o setor Responsável. \nEm breve um Agente Comercial entrará em contato com você. \n\n*Estamos tendo um tempo maior do que o normal para retorno, por causa de um número alto de procura para exposição. \nMas fique tranquila(o). Estabelecemos uma fila de prioridades e serão respondidos em ordem de chegada da solicitação. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Prospect], \nComo vai? \n\nFicamos felizes em saber do seu interesse em Expor na [Feira][Ano]. \n\nEncaminhei seu e-mail para o setor Responsável. \nEm breve um Agente Comercial entrará em contato com você. \n\n*Estamos tendo um tempo maior do que o normal para retorno, por causa de um número alto de procura para exposição. \nMas fique tranquila(o). Estabelecemos uma fila de prioridades e serão respondidos em ordem de chegada da solicitação. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":prosint"
-    replace: "\nHello Dear Sir/Madam, \n\nWe hope you're doing fine! \n\nWe are happy to know of your interest in exhibiting with us. \n\nI have forwarded your email to the Responsible sector. \nA Commercial Agent will contact you shortly. \n\n\nBest wishes, \n\nMarcelo Salles \nCustomer Service \nT. 55 11 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nHello Dear Sir/Madam, \n\nWe hope you're doing fine! \n\nWe are happy to know of your interest in exhibiting with us. \n\nI have forwarded your email to the Responsible sector. \nA Commercial Agent will contact you shortly. \n\n\nBest wishes, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. 55 11 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":samara"
-    replace: "\nOi [AgenteComercial], \n\nSegue QUERO EXPOR - [FEIRA_ANO]. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOi [AgenteComercial], \n\nSegue QUERO EXPOR - [FEIRA_ANO]. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":boletoalt"
-    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nO boleto a seguir, foi alterado (data de vencimento para 00-02-2024): \n\nTaxa de limpeza [Nosso Número] \n\nJá está disponível na Área do Prestador. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nO boleto a seguir, foi alterado (data de vencimento para 00-02-2024): \n\nTaxa de limpeza [Nosso Número] \n\nJá está disponível na Área do Prestador. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":boletosalt"
-    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nOs boletos a seguir, foram alterados (data de vencimento para 00-02-2024): \n\n- Taxa de limpeza [Nosso Número] \n- Ponto de deságue [Nosso Número] \n- Extintor [Nosso Número] \n\nJá estão disponíveis nas respectivas Áreas (Expositor/Prestador) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nOs boletos a seguir, foram alterados (data de vencimento para 00-02-2024): \n\n- Taxa de limpeza [Nosso Número] \n- Ponto de deságue [Nosso Número] \n- Extintor [Nosso Número] \n\nJá estão disponíveis nas respectivas Áreas (Expositor/Prestador) \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
   
   - trigger: ":projeto"
-    replace: "\nOlá [Prestador/Expositor], \n\nEstou encaminhando seu e-mail para a Área de Projetos, que nos lê em cópia. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Prestador/Expositor], \n\nEstou encaminhando seu e-mail para a Área de Projetos, que nos lê em cópia. \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
   
   - trigger: ":projdireto"
     replace: "\nConversa direta entre Projetos e Solicitante. CS em cópia."
@@ -64,7 +67,7 @@ matches:
     replace: "\nVia HG - Agência de Turismo \nRenata Oliveira \n55 11 4229-9593 \n55 11 98368-8821 \nwww.viahg.com.br"
     
   - trigger: ":qual"
-    replace: "\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":projdocs"
     replace: "\nDocumentos para análise de projeto: \n\nPlanta baixa com cotas; \nElevação com cotas; \nART / RRT / TRT: \n- Elaboração projeto arquitetônico. \n- Elaboração de projeto elétrica de baixa tensão. \n- Execução de montagem stand. \n- Execução de instalação elétrica de baixa tensão. \nExemplo de preenchimento no manual do expositor."
@@ -82,7 +85,7 @@ matches:
     replace: "\nPrimeiramente, lamentamos a demora em te responder. \nDevido a próximidade do evento, estamos com fila intensa de atendimentos."
     
   - trigger: ":planta"
-    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nSegue recorte de Área (Planta do Evento), conforme solicitado. \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor/Prestador], \nComo vai? \n\nSegue recorte de Área (Planta do Evento), conforme solicitado. \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":visit"
     replace: "\nCanais de Atendimento Exclusivo do Visitante: \nWhatsApp: 11 93962-3459 \nTelefone: 11 2226-3100 - Ramal: 1313 \nEmail: visitante@francal.com.br"
@@ -91,19 +94,19 @@ matches:
     replace: "\nInformações Comerciais EXPO TELECOM \nCentral Única de Comercialização: \nTel.: 11 4210-0810 \nexpotelecom@mapptv.com.br"
     
   - trigger: ":cidbio"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Bio\natural Tech 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1595 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Bio\natural Tech 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1595 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":cidesco"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Escolar Office 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1601 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Escolar Office 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1601 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
   
   - trigger: ":cidsea"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Seafood Show 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1604 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato Seafood Show 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1604 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":cidifpa"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato The Brazil Conference - IFPA 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1605 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato The Brazil Conference - IFPA 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1605 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":cidveg"
-    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato The Brazil Conference - VEGFEST 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1609 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor], \nComo vai? \n\nSegue o link para contratação de coletores de contato The Brazil Conference - VEGFEST 2023: \n\nhttps://www.regtronweb.com.br/coletor/reserva_novo/emailMarketing.php?idevento=1609 \n\n11 3855 1500 \ncoletor@cidtech.com.br \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":cas"
     replace: "\nCAS STANDS - KAAS PROMOÇÃO DE FEIRAS E EVENTOS \nAV. FAUSTINO RAMALHO, 781 - VILA GALVÃO - GUARULHOS \nCEP: 07054040 - SÃO PAULO – SP \nTELEFONE: (11) 24973777 - MALU: 99974.1244 / RICARDO: 99279 9702 \nE-MAIL: cas@casstands.com.br / malu@casstands.com.br / ricardo@casstands.com.br \nCONTATO: MALU CHIAPARRO /  RICARDO SAUANDAG"
@@ -115,7 +118,7 @@ matches:
     replace: "\nCanais de Atendimento - CS \nE-mail: cs@francal.com.br ou \n https://puccs.zendesk.com/hc/pt-br/requests/new?ticket_form_id=1500003250501 \nTelefone: (11) 2226-3100 \nWhatsApp: (11) 97337-3859 (somente texto/imagens)"
     
   - trigger: ":lgpd"
-    replace: "\nLamento, mas não podemos enviar a Planta Completa do Evento por diretrizes internas de Privacidade e Segurança - LGPD - Lei Geral de Proteção de Dados (13.709/2018). \n\nSegue recorte de Área do estande: \n\nSegue também as Normas Técnicas de Montagem (anexo). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nLamento, mas não podemos enviar a Planta Completa do Evento por diretrizes internas de Privacidade e Segurança - LGPD - Lei Geral de Proteção de Dados (13.709/2018). \n\nSegue recorte de Área do estande: \n\nSegue também as Normas Técnicas de Montagem (anexo). \n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":estrut"
     replace: "\nMontadora Oficial \nAtendimento: Felipe Martha/Célia Cabraitz \nE-mail: producoes@francal.com.br \nFone: (11) 3934-0015"
@@ -130,7 +133,7 @@ matches:
     replace: "EFFICIENT SERVICE TERCEIRIZACAO DE SERVICOS LTDA. \nCNPJ: 97.523.405/0001-46. \nEndereço: Rua Claudeli N. 179– Cidade Julia. \nCep: 04424-070 – São Paulo -SP \nContato: Aline \nEmail: comercial@efficientservice.com.br \nTels. (11) 2851-8011 | (11) 99495-4099"
     
   - trigger: ":custom"
-    replace: "\nOlá [Expositor], \n\nEncaminhei seu e-mail para o setor Responsável pelas Customizações de Estande (Operacional). \n\nEm breve, um Agente Operacional irá entrar em contato com você. \n\nVocê pode também, entrar em contato pelo: (11) 2226-3100 - para que possamos tranferir ao setor Operacional. \n\nQualquer dúvida, estamos à disposição. \n\n\n\nAtenciosamente, \nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "\nOlá [Expositor], \n\nEncaminhei seu e-mail para o setor Responsável pelas Customizações de Estande (Operacional). \n\nEm breve, um Agente Operacional irá entrar em contato com você. \n\nVocê pode também, entrar em contato pelo: (11) 2226-3100 - para que possamos tranferir ao setor Operacional. \n\nQualquer dúvida, estamos à disposição. \n\n\n\nAtenciosamente, \nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":indigo"
     replace: "\nParking INDIGO: \n\nTelefone: (21) 97094-0923 \nE-mail: joao.neto@group-indigo.com"
@@ -160,7 +163,7 @@ matches:
     replace: "Hipernet \nContato: Luciano \nTelefone: (11) 3077-5500 \nE-mail: feiras@hipernet.net"
     
   - trigger: ":yours"
-    replace: "Let me know if I may help any further. \n\n\nBest wishes, \n\nMarcelo Salles \nCustomer Service \nT. 55 11 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "Let me know if I may help any further. \n\n\nBest wishes, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. 55 11 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":caf"
     replace: "CAF - Central de Atendimento Francal"
@@ -203,25 +206,25 @@ matches:
     replace: "ESTRUTURA AÉREA - ANHEMBI \nGL events \n11 5067-1670 \ncomercial@glbr.com.br"
     
   - trigger: ":1nf"
-    replace: "Olá [Expositor], \n\nA FRANCAL emite um recibo de pagamento referente ao serviço prestado/contratação de itens, que serve como documento comprobatório. \n\nSegue anexo.\n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "Olá [Expositor], \n\nA FRANCAL emite um recibo de pagamento referente ao serviço prestado/contratação de itens, que serve como documento comprobatório. \n\nSegue anexo.\n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":rep1nf"
-    replace: "Prezado [Expositor], \n\nCompreendemos sua preocupação com a nota fiscal em vez do recibo. Contudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - Resp nº 411.580/SP. \n\nPara maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.\n\nColocamo-nos à disposição para quaisquer esclarecimentos. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "Prezado [Expositor], \n\nCompreendemos sua preocupação com a nota fiscal em vez do recibo. Contudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - Resp nº 411.580/SP. \n\nPara maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.\n\nColocamo-nos à disposição para quaisquer esclarecimentos. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":2nf"
-    replace: "Olá [Expositor], \n\nPara taxas de serviços prestados por terceiros (repasse), a FRANCAL emite um recibo de pagamento, assim que a baixa do pagamento for efetivada - que serve como comprovante. \n\nCaso não queira aguardar a baixa automática, você pode nos enviar um Comprovante de pagamento da taxa.\n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "Olá [Expositor], \n\nPara taxas de serviços prestados por terceiros (repasse), a FRANCAL emite um recibo de pagamento, assim que a baixa do pagamento for efetivada - que serve como comprovante. \n\nCaso não queira aguardar a baixa automática, você pode nos enviar um Comprovante de pagamento da taxa.\n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":rep2nf"
-    replace: "Olá [Expositor], \n\nA emissão do Recibo é possível mediante comprovação de quitação dos valores em questão. \n\nEntretanto, por uma liberalidade da FRANCAL, emitimos o recibo antecipadamente, porém é necessário que o pagamento seja efetivado até [datalimite].\n\nQualquer dúvida, estamos à disposição.\n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "Olá [Expositor], \n\nA emissão do Recibo é possível mediante comprovação de quitação dos valores em questão. \n\nEntretanto, por uma liberalidade da FRANCAL, emitimos o recibo antecipadamente, porém é necessário que o pagamento seja efetivado até [datalimite].\n\nQualquer dúvida, estamos à disposição.\n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
 
   - trigger: ":trep2nf"
-    replace: "Olá [Expositor], \n\nCompreendemos sua preocupação com a nota fiscal em vez do recibo. \n\nContudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - Resp nº 411.580/SP. \n\nPara maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.\n\nColocamo-nos à disposição para quaisquer esclarecimentos.n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "Olá [Expositor], \n\nCompreendemos sua preocupação com a nota fiscal em vez do recibo. \n\nContudo, emitimos recibos com base em no entendimento do Superior Tribunal de Justiça (STJ), que dispensa a obrigatoriedade de emissão de nota fiscal e tributação, no caso de reembolsos pagos por terceiros - Resp nº 411.580/SP. \n\nPara maiores esclarecimentos, você pode considerar uma consulta tributária à Secretaria de Fazenda do Município. Isso fornecerá clareza e segurança à sua empresa em relação a esse assunto.\n\nColocamo-nos à disposição para quaisquer esclarecimentos.n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":ferias"
     replace: "Dear Exhibitor, \n\nWe are on a year-end break here at FRANCAL, with a return date of January 15th, 2024 - when we will be available to provide you with all the support you need. \n\nWe wish you happy Holidays!"
     
   - trigger: ":logorecesso"
-    replace: "Olá [Expositor], \n\nConfirmamos o recebimento do seu arquivo. A Tratativa ocorrerá a partir de 15/01/2024, pois o colaborador responsável pelas análises e aprovação estará em período de recesso. \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCustomer Service \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
+    replace: "Olá [Expositor], \n\nConfirmamos o recebimento do seu arquivo. A Tratativa ocorrerá a partir de 15/01/2024, pois o colaborador responsável pelas análises e aprovação estará em período de recesso. \n\n\nQualquer dúvida, estamos à disposição. \n\n\nAtenciosamente, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. (11) 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
     
   - trigger: ":fgl"
     replace: "COMPANY: FGL GLOBAL LOGISTICS \nCONTACT: MR. FABIO MAIA \nE-MAIL: fabio.maia@fglglobal.com \nTEL: (55-11) 5096 4054 | (55-11) 98125 8243 \nwww.fglglobal.com"
