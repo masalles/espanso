@@ -160,7 +160,7 @@ matches:
     replace: "EMPRESA LICITADA PARA ADESIVAGEM (PERSONALIZAÇÃO DE PROGRAMAÇÃO VISUAL) \nAresta Visual Contato: Sirlene Rocha \nTelefone:(11) 3973-6500 / Whatsapp (11) 3973-6509 \nE-mail: sirlene@aresta.com.br"
     
   - trigger: ":hiper"
-    replace: "Hipernet \nContato: Rafael / Edilaine \nTelefone: (11) 3077-5500 \nE-mail: feiras.anhembi@hthnet.net"
+    replace: "Hipernet \nContato: Rafael | Edilaine \nTelefone: (11) 3077-5500 \nE-mail: feiras.anhembi@hthnet.net"
     
   - trigger: ":yours"
     replace: "Let me know if I may help any further. \n\n\nBest wishes, \n\nMarcelo Salles \nCUSTOMER SUCCESS \nT. 55 11 2226-3100 \ncs@francal.com.br \nhttps://francal.com.br"
